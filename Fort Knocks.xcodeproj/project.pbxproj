@@ -1,0 +1,497 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		137A9ED02786312A00CA2E5E /* REST.swift in Sources */ = {isa = PBXBuildFile; fileRef = 137A9ECF2786312A00CA2E5E /* REST.swift */; };
+		137A9ED22786345D00CA2E5E /* Network.swift in Sources */ = {isa = PBXBuildFile; fileRef = 137A9ED12786345D00CA2E5E /* Network.swift */; };
+		13AD101B274DA3CE00072197 /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13AD101A274DA3CE00072197 /* ModelData.swift */; };
+		13AD101D274DA44600072197 /* Vault.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13AD101C274DA44600072197 /* Vault.swift */; };
+		13AD1020274DA4C000072197 /* VaultList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13AD101F274DA4C000072197 /* VaultList.swift */; };
+		13AD1022274DA52300072197 /* VaultRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13AD1021274DA52300072197 /* VaultRow.swift */; };
+		13AD1024274DA52F00072197 /* VaultDetailed.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13AD1023274DA52F00072197 /* VaultDetailed.swift */; };
+		13AD1026274DA71600072197 /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13AD1025274DA71600072197 /* Profile.swift */; };
+		13C16B4D274D86F500DE995A /* Fort_KnocksApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13C16B4C274D86F500DE995A /* Fort_KnocksApp.swift */; };
+		13C16B4F274D86F500DE995A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13C16B4E274D86F500DE995A /* ContentView.swift */; };
+		13C16B51274D86F700DE995A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13C16B50274D86F700DE995A /* Assets.xcassets */; };
+		13C16B54274D86F700DE995A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13C16B53274D86F700DE995A /* Preview Assets.xcassets */; };
+		13C8CBA22788587C0067078B /* NextButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13C8CBA12788587C0067078B /* NextButton.swift */; };
+		13C8CBA827887C700067078B /* VaultEdit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13C8CBA727887C700067078B /* VaultEdit.swift */; };
+		13CD0A0C2789CC3E009D399C /* VaultNewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13CD0A0B2789CC3E009D399C /* VaultNewViewModel.swift */; };
+		13CD0A0E2789CD37009D399C /* BluetoothManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13CD0A0D2789CD37009D399C /* BluetoothManager.swift */; };
+		13CD0A112789D43A009D399C /* ConnectViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13CD0A102789D43A009D399C /* ConnectViewModel.swift */; };
+		13CD0A142789ED94009D399C /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13CD0A132789ED94009D399C /* CoreBluetooth.framework */; };
+		13EA8212278786F400196363 /* ProfileHost.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13EA8211278786F400196363 /* ProfileHost.swift */; };
+		13EA8216278787D900196363 /* ProfileEditor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13EA8215278787D900196363 /* ProfileEditor.swift */; };
+		13EA821C2788517500196363 /* VaultNew.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13EA821B2788517500196363 /* VaultNew.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		137A9ECF2786312A00CA2E5E /* REST.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = REST.swift; sourceTree = "<group>"; };
+		137A9ED12786345D00CA2E5E /* Network.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Network.swift; sourceTree = "<group>"; };
+		13AD101A274DA3CE00072197 /* ModelData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelData.swift; sourceTree = "<group>"; };
+		13AD101C274DA44600072197 /* Vault.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Vault.swift; sourceTree = "<group>"; };
+		13AD101F274DA4C000072197 /* VaultList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VaultList.swift; sourceTree = "<group>"; };
+		13AD1021274DA52300072197 /* VaultRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VaultRow.swift; sourceTree = "<group>"; };
+		13AD1023274DA52F00072197 /* VaultDetailed.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VaultDetailed.swift; sourceTree = "<group>"; };
+		13AD1025274DA71600072197 /* Profile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
+		13C16B49274D86F500DE995A /* Fort Knocks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Fort Knocks.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		13C16B4C274D86F500DE995A /* Fort_KnocksApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fort_KnocksApp.swift; sourceTree = "<group>"; };
+		13C16B4E274D86F500DE995A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		13C16B50274D86F700DE995A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		13C16B53274D86F700DE995A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		13C8CBA12788587C0067078B /* NextButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NextButton.swift; sourceTree = "<group>"; };
+		13C8CBA727887C700067078B /* VaultEdit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VaultEdit.swift; sourceTree = "<group>"; };
+		13CD0A0B2789CC3E009D399C /* VaultNewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VaultNewViewModel.swift; sourceTree = "<group>"; };
+		13CD0A0D2789CD37009D399C /* BluetoothManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BluetoothManager.swift; sourceTree = "<group>"; };
+		13CD0A102789D43A009D399C /* ConnectViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConnectViewModel.swift; sourceTree = "<group>"; };
+		13CD0A132789ED94009D399C /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
+		13EA8211278786F400196363 /* ProfileHost.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileHost.swift; sourceTree = "<group>"; };
+		13EA8215278787D900196363 /* ProfileEditor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileEditor.swift; sourceTree = "<group>"; };
+		13EA821B2788517500196363 /* VaultNew.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VaultNew.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		13C16B46274D86F500DE995A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13CD0A142789ED94009D399C /* CoreBluetooth.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		13AD1018274DA39C00072197 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				13AD101A274DA3CE00072197 /* ModelData.swift */,
+				13AD101C274DA44600072197 /* Vault.swift */,
+				13AD1025274DA71600072197 /* Profile.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		13AD1019274DA3A400072197 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		13AD101E274DA4AE00072197 /* Vault */ = {
+			isa = PBXGroup;
+			children = (
+				13CD0A0F2789D2DE009D399C /* VaultNew */,
+				13AD101F274DA4C000072197 /* VaultList.swift */,
+				13AD1021274DA52300072197 /* VaultRow.swift */,
+				13AD1023274DA52F00072197 /* VaultDetailed.swift */,
+				13C8CBA727887C700067078B /* VaultEdit.swift */,
+			);
+			path = Vault;
+			sourceTree = "<group>";
+		};
+		13C16B40274D86F500DE995A = {
+			isa = PBXGroup;
+			children = (
+				13C16B4B274D86F500DE995A /* Fort Knocks */,
+				13C16B4A274D86F500DE995A /* Products */,
+				13CD0A122789ED93009D399C /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		13C16B4A274D86F500DE995A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				13C16B49274D86F500DE995A /* Fort Knocks.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		13C16B4B274D86F500DE995A /* Fort Knocks */ = {
+			isa = PBXGroup;
+			children = (
+				13C16B4C274D86F500DE995A /* Fort_KnocksApp.swift */,
+				13C16B5A274D870C00DE995A /* Views */,
+				13C8CBA5278867CE0067078B /* Network */,
+				13AD1018274DA39C00072197 /* Model */,
+				13C8CBA627887BC80067078B /* Bluetooth */,
+				13AD1019274DA3A400072197 /* Resources */,
+				13C16B50274D86F700DE995A /* Assets.xcassets */,
+				13C16B52274D86F700DE995A /* Preview Content */,
+			);
+			path = "Fort Knocks";
+			sourceTree = "<group>";
+		};
+		13C16B52274D86F700DE995A /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				13C16B53274D86F700DE995A /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		13C16B5A274D870C00DE995A /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				13C16B4E274D86F500DE995A /* ContentView.swift */,
+				13C8CBA0278858500067078B /* Helpers */,
+				13EA8210278786C700196363 /* Profile */,
+				13AD101E274DA4AE00072197 /* Vault */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		13C8CBA0278858500067078B /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				13C8CBA12788587C0067078B /* NextButton.swift */,
+			);
+			name = Helpers;
+			path = ../Helpers;
+			sourceTree = "<group>";
+		};
+		13C8CBA5278867CE0067078B /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				137A9ECF2786312A00CA2E5E /* REST.swift */,
+				137A9ED12786345D00CA2E5E /* Network.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		13C8CBA627887BC80067078B /* Bluetooth */ = {
+			isa = PBXGroup;
+			children = (
+				13CD0A0D2789CD37009D399C /* BluetoothManager.swift */,
+			);
+			path = Bluetooth;
+			sourceTree = "<group>";
+		};
+		13CD0A0F2789D2DE009D399C /* VaultNew */ = {
+			isa = PBXGroup;
+			children = (
+				13EA821B2788517500196363 /* VaultNew.swift */,
+				13CD0A0B2789CC3E009D399C /* VaultNewViewModel.swift */,
+				13CD0A102789D43A009D399C /* ConnectViewModel.swift */,
+			);
+			path = VaultNew;
+			sourceTree = "<group>";
+		};
+		13CD0A122789ED93009D399C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				13CD0A132789ED94009D399C /* CoreBluetooth.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		13EA8210278786C700196363 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				13EA8211278786F400196363 /* ProfileHost.swift */,
+				13EA8215278787D900196363 /* ProfileEditor.swift */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		13C16B48274D86F500DE995A /* Fort Knocks */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 13C16B57274D86F700DE995A /* Build configuration list for PBXNativeTarget "Fort Knocks" */;
+			buildPhases = (
+				13C16B45274D86F500DE995A /* Sources */,
+				13C16B46274D86F500DE995A /* Frameworks */,
+				13C16B47274D86F500DE995A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Fort Knocks";
+			productName = "Fort Knocks";
+			productReference = 13C16B49274D86F500DE995A /* Fort Knocks.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		13C16B41274D86F500DE995A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1310;
+				LastUpgradeCheck = 1310;
+				TargetAttributes = {
+					13C16B48274D86F500DE995A = {
+						CreatedOnToolsVersion = 13.1;
+					};
+				};
+			};
+			buildConfigurationList = 13C16B44274D86F500DE995A /* Build configuration list for PBXProject "Fort Knocks" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 13C16B40274D86F500DE995A;
+			productRefGroup = 13C16B4A274D86F500DE995A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				13C16B48274D86F500DE995A /* Fort Knocks */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		13C16B47274D86F500DE995A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13C16B54274D86F700DE995A /* Preview Assets.xcassets in Resources */,
+				13C16B51274D86F700DE995A /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		13C16B45274D86F500DE995A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13AD1020274DA4C000072197 /* VaultList.swift in Sources */,
+				13EA821C2788517500196363 /* VaultNew.swift in Sources */,
+				13AD1026274DA71600072197 /* Profile.swift in Sources */,
+				13AD1022274DA52300072197 /* VaultRow.swift in Sources */,
+				13EA8212278786F400196363 /* ProfileHost.swift in Sources */,
+				13EA8216278787D900196363 /* ProfileEditor.swift in Sources */,
+				137A9ED02786312A00CA2E5E /* REST.swift in Sources */,
+				137A9ED22786345D00CA2E5E /* Network.swift in Sources */,
+				13C16B4F274D86F500DE995A /* ContentView.swift in Sources */,
+				13C16B4D274D86F500DE995A /* Fort_KnocksApp.swift in Sources */,
+				13AD101D274DA44600072197 /* Vault.swift in Sources */,
+				13AD101B274DA3CE00072197 /* ModelData.swift in Sources */,
+				13CD0A0C2789CC3E009D399C /* VaultNewViewModel.swift in Sources */,
+				13C8CBA827887C700067078B /* VaultEdit.swift in Sources */,
+				13C8CBA22788587C0067078B /* NextButton.swift in Sources */,
+				13CD0A112789D43A009D399C /* ConnectViewModel.swift in Sources */,
+				13CD0A0E2789CD37009D399C /* BluetoothManager.swift in Sources */,
+				13AD1024274DA52F00072197 /* VaultDetailed.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		13C16B55274D86F700DE995A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		13C16B56274D86F700DE995A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		13C16B58274D86F700DE995A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Fort Knocks/Preview Content\"";
+				DEVELOPMENT_TEAM = 5MH844R4JQ;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "Bluetooth access is needed to configure your vault";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "APokatilov.Fort-Knocks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		13C16B59274D86F700DE995A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Fort Knocks/Preview Content\"";
+				DEVELOPMENT_TEAM = 5MH844R4JQ;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "Bluetooth access is needed to configure your vault";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "APokatilov.Fort-Knocks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		13C16B44274D86F500DE995A /* Build configuration list for PBXProject "Fort Knocks" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13C16B55274D86F700DE995A /* Debug */,
+				13C16B56274D86F700DE995A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		13C16B57274D86F700DE995A /* Build configuration list for PBXNativeTarget "Fort Knocks" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13C16B58274D86F700DE995A /* Debug */,
+				13C16B59274D86F700DE995A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 13C16B41274D86F500DE995A /* Project object */;
+}
